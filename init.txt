@@ -1,0 +1,18 @@
+sharing:
+
+"all": [
+    "facebook", "google", "twitter",
+        "weibo", "instapaper"
+]
+
+只有在 SUMMARY.md 里添加目录，md文件才会被编译渲染成html
+
+插件简介地址： https://www.cnblogs.com/zhangjk1993/p/5066771.html
+
+
+已做成ppt的：麻山苗族，纳日藏族，平地瑶族，洗期麻族，杨黄族，布依族，屯堡人，+努把民族，撒拉族，东乡族，保安族，+六盘水苗族，柳江壮人
+
+
+gitbook epub . intominority.v1.0.epub
+
+gitbook pdf . intominority.v1.0.pdf

@@ -1,0 +1,21 @@
+.page-footer .copyright {
+  display: none;
+}
+#anchor-navigation-ex-navbar {
+  display: none !important;
+}
+.gitbook-donate > div {
+  display: none;
+}
+.gitbook-link {
+  opacity: 0;
+}
+.markdown-section hr {
+  height: 1px;
+}
+.markdown-section > p {
+  text-indent: 2rem;
+}
+.markdown-section > p img {
+  max-width: 50%;
+}
