@@ -1,0 +1,64 @@
+body .loading-index {
+  animation: loadingBox 1s linear 2s;
+  -webkit-animation: loadingBox 1s linear 2s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+body .loading-index {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  z-index: 99999;
+}
+body .loading-index .loading-ani {
+  animation: loading 3s;
+  -webkit-animation: loading 3s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+body .loading-index div {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+}
+body .loading-index div h2 {
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+body .loading-index div p {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+}
+body .loading-index div p:last-child {
+  font-size: 12px;
+  line-height: 38px;
+  color: #606266;
+}
+@keyframes loading {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes loadingBox {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
